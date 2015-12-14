@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Voices Heard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnDownloadText">Download All Podcasts</string>
+    <string name="btnRefreshText">Refresh</string>
+    <string name="Archive">Archive</string>
+
+    <string name="NumberLabel">Maximum Episodes to Download</string>
+    <string name="UrlLabel">RSS Feed URL</string>
+    <string name="PodcastTitleLabel">Podcast Title</string>
+
+    <string name="DefaultLimit">3</string>
+
+    <string name="RSSFeedSearchEngine">http://ctrlq.org/rss/</string>
+
+    <string name="PodcastFolder">GetPodcasts</string>
+    <string name="AlarmFilename">alarms.cfg</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="THEME_KEY">SETTING_THEME</string>
+    <string name="DEFAULT_THEME">BLUE</string>
+
+    <string name="NAMING_KEY">SETTING_NAMING</string>
+    <string name="DEFAULT_NAMING">Default</string>
+
+    <array name="SORTING_TYPES">
+        <item>Most Recent</item>
+        <item>Alphabetical</item>
+    </array>
+
+    <array name="NAMING_TYPES">
+        <item>Default</item>
+        <item>Title</item>
+        <item>Publish Date</item>
+    </array>
+
+    <string name="DEFAULT_SORTING">Most Recent</string>
+</resources>

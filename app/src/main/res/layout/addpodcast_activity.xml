@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:background="@color/dkdkBlue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="3"
+        android:id="@+id/addPodcastMasterLayout"
+        android:background="@drawable/rounded_gradient"
+        android:layout_margin="7dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5"
+            android:layout_margin="5dp"
+            android:id="@+id/addPodcastNameLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PodcastTitleLabel"
+                android:textColor="@color/ltGrey"
+                android:layout_gravity="fill"
+                android:id="@+id/TitleLabel"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ltGrey"
+                android:id="@+id/TitleEditView"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:width="200dp"/>
+
+            <ProgressBar
+                android:id="@+id/waitingForNameBar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+            <ImageButton
+                android:id="@+id/btnRssSearch"
+                android:layout_height="match_parent"
+                android:layout_width="60dp"
+                android:layout_gravity="center"
+                android:layout_weight=".5"
+                android:background="@drawable/magnifier"
+                android:scaleType="fitXY"
+            />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2.5"
+            android:layout_weight="1"
+            android:id="@+id/addPodcastUrlLayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UrlLabel"
+                android:textColor="@color/ltGrey"
+                android:layout_gravity="fill"
+                android:id="@+id/UrlLabel"
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ltGrey"
+                android:layout_gravity="center|fill"
+                android:id="@+id/UrlEditView"
+                android:layout_weight="1"
+                android:width="200dp"/>
+            <ProgressBar
+                android:id="@+id/waitingForUrlBar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight=".5"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NumberLabel"
+            android:textColor="@color/ltGrey"
+            android:layout_gravity="fill"
+            android:id="@+id/LimitLabel"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:text="@string/DefaultLimit"
+            android:textColor="@color/ltGrey"
+            android:layout_gravity="fill"
+            android:id="@+id/LimitEditView"
+            android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/saveNewPodcastButton"
+            android:background="@color/dkGrey"
+            android:textColor="@color/ltGrey"
+            android:layout_gravity="fill"
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>

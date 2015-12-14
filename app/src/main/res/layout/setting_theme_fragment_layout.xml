@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10px">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Theme"
+    android:textSize="60px"
+    android:fontFamily="serif"
+    android:textColor="@color/ltGrey"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<Button
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="BLUE"
+    android:background="@color/ltBlue"
+    android:textColor="@color/ltGrey"
+    android:id="@+id/setting_theme_blue_button"/>
+<Button
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="GREEN"
+    android:background="@color/GREEN"
+    android:textColor="@color/ltGrey"
+    android:id="@+id/setting_theme_green_button"/>
+<Button
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="RED"
+    android:background="@color/RED"
+    android:textColor="@color/ltGrey"
+    android:id="@+id/setting_theme_red_button"/>
+<Button
+    android:layout_width="0px"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="PURPLE"
+    android:background="@color/PURPLE"
+    android:textColor="@color/ltGrey"
+    android:id="@+id/setting_theme_purple_button"/>
+</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:layout_margin="30px"
+        android:background="@color/ltGrey"></View>
+</LinearLayout>

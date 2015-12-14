@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dkdkBlue">#FF141928</color>
+    <color name="dkBlue">#FF1E2846</color>
+    <color name="Blue">#FF3070AA</color>
+    <color name="ltBlue">#FF1E3C64</color>
+    <color name="dkGrey">#FF333333</color>
+    <color name="Grey">#FF777777</color>
+    <color name="ltGrey">#FFAAAAAA</color>
+    <color name="gold">#FFA09000</color>
+
+    <color name="dkdkBlueLucent">#AA141928</color>
+    <color name="dkBlueLucent">#881E2846</color>
+    <color name="BlueLucent">#883070AA</color>
+    <color name="ltBlueLucent">#881E3C64</color>
+    <color name="dkGreyLucent">#88333333</color>
+    <color name="GreyLucent">#88777777</color>
+    <color name="ltGreyLucent">#88AAAAAA</color>
+    <color name="goldLucent">#88A09000</color>
+
+    <!-- THEME RECOLORS!! -->
+    <color name="DARK_RED">#FF220008</color>
+    <color name="RED">#FF440011</color>
+    <color name="WASHED_RED">#FF660022</color>
+
+    <color name="DARK_PURPLE">#FF221522</color>
+    <color name="PURPLE">#FF331144</color>
+    <color name="WASHED_PURPLE">#FF552266</color>
+
+    <color name="DARK_GREEN">#FF082211</color>
+    <color name="GREEN">#FF153322</color>
+    <color name="WASHED_GREEN">#FF155527</color>
+
+</resources>

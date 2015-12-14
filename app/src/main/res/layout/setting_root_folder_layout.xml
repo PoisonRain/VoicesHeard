@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/setting_root_folder_title"
+    android:text="Podcast Folder"
+    android:fontFamily="serif"
+    android:textSize="60px"
+    android:textColor="@color/ltGrey"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/setting_root_folder_edit"
+        android:fontFamily="serif"
+        android:textSize="60px"
+        android:textColor="@color/ltGrey"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/setting_root_folder_save_button"
+        android:text="SAVE"
+        android:fontFamily="serif"
+        android:textSize="60px"
+        android:textColor="@color/ltGrey"/>
+    </LinearLayout>
+</LinearLayout>
